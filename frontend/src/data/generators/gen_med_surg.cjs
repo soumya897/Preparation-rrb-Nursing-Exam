@@ -1,0 +1,751 @@
+// 67 Medical-Surgical & Emergency Nursing Questions
+module.exports = [
+  // 12 March 2026 — Shift 1
+  {
+    id: "cen-ms-1",
+    dayId: 12,
+    topic: "Fluid & Electrolyte Imbalance - Hypocalcemia",
+    difficulty: "EASY",
+    question: "When caring for a patient with hypocalcemia, which symptom should the nurse closely observe?",
+    options: ["Muscle flaccidity", "Muscle twitching", "Hypoactive bowel sounds", "Loss of deep tendon reflexes"],
+    correctIndex: 1,
+    explanationEn: "Hypocalcemia (serum calcium < 8.5 mg/dL) increases neuromuscular excitability, causing paresthesias, muscle spasms, twitching, tetany, Chvostek's sign, and Trousseau's sign.",
+    explanationBn: "হাইপোক্যালসেমিয়া (রক্তে ক্যালসিয়াম কমে যাওয়া)-র প্রধান লক্ষণ হলো স্নায়ুপেশির উত্তেজনা বৃদ্ধি এবং মাংসপেশির খিঁচুনি বা কাঁপুনি (Muscle twitching)।"
+  },
+  {
+    id: "cen-ms-2",
+    dayId: 11,
+    topic: "Chest Trauma & Gas Exchange",
+    difficulty: "MEDIUM",
+    question: "A patient with severe chest trauma is unable to ventilate effectively. Which best explains the immediate physiological consequence regarding gas exchange?",
+    options: ["Increased oxygen delivery to peripheral tissues", "Reduced oxygen diffusion from alveoli to blood", "Excessive exhalation of nitrogen", "Enhanced alveolar surfactant regeneration"],
+    correctIndex: 1,
+    explanationEn: "Ineffective ventilation reduces alveolar oxygen tension, decreasing the partial pressure gradient required for passive oxygen diffusion across the alveolar-capillary membrane into the blood.",
+    explanationBn: "বুকের আঘাতের কারণে ফুসফুস সঠিকভাবে প্রসারিত না হলে অ্যালভিওলাই থেকে রক্তে অক্সিজেনের ব্যাপন (diffusion) মারাত্মকভাবে কমে যায়।"
+  },
+  {
+    id: "cen-ms-3",
+    dayId: 12,
+    topic: "Post-operative Fluid & Electrolytes",
+    difficulty: "HARD",
+    question: "A post-operative patient receiving D5 and 0.45% normal saline at 160 ml/hour develops puffiness, 2 kg weight gain, hypotension, muscle cramps, confusion, and serum sodium of 126 mEq/L. Most likely cause?",
+    options: ["Hypernatremic dehydration", "Fluid overload and hyponatremia", "Acute hypercalcemic crisis", "Cardiogenic pulmonary infarction"],
+    correctIndex: 1,
+    explanationEn: "Infusing hypotonic fluids at a high rate (160 ml/hr) postoperatively leads to free water retention, rapid weight gain, edema, and dilutional hyponatremia (Na 126 mEq/L), triggering neurological confusion and muscle cramps.",
+    explanationBn: "অতিরিক্ত মাত্রায় হাইপোটোনিক স্যালাইন দেওয়ায় শরীরে জল জমে ওজন বৃদ্ধি, ফোলাভাব এবং সোডিয়ামের মাত্রা ১২৬ mEq/L-এ নেমে গিয়ে ফ্লুইড ওভারলোড ও হাইপোন্যাট্রেমিয়া দেখা দিয়েছে।"
+  },
+  {
+    id: "cen-ms-4",
+    dayId: 13,
+    topic: "Peptic Ulcer Disease & Pharmacotherapy",
+    difficulty: "MEDIUM",
+    question: "A patient with a peptic ulcer is prescribed a proton pump inhibitor and advised to avoid NSAIDs. Which rationale explains this combined approach?",
+    options: ["To promote ulcer healing and prevent further irritation", "To stimulate pepsin and gastrin secretion", "To increase gastric motility and prevent constipation", "To sterilize the small intestinal microbiome"],
+    correctIndex: 0,
+    explanationEn: "Proton pump inhibitors (PPIs) powerfully inhibit gastric H+/K+ ATPase to reduce acid and promote mucosal healing, while avoiding NSAIDs prevents the suppression of protective prostaglandins.",
+    explanationBn: "PPI পাকস্থলীর অ্যাসিড উৎপাদন কমিয়ে আলসার নিরাময়ে সহায়তা করে এবং NSAID ব্যথানাশক এড়িয়ে চললে গ্যাস্ট্রিক শ্লেষ্মাঝিল্লির অতিরিক্ত প্রদাহ ও রক্তক্ষরণ প্রতিরোধ হয়।"
+  },
+  {
+    id: "cen-ms-5",
+    dayId: 10,
+    topic: "Disaster Triage & Prioritization",
+    difficulty: "MEDIUM",
+    question: "A nurse encounters four patients after a mass casualty event. Who should be given the highest triage priority?",
+    options: ["A patient with a closed forearm fracture", "A patient with severe respiratory distress", "A patient with minor facial abrasions and intact vitals", "A patient with extensive lethal injuries and absent respirations"],
+    correctIndex: 1,
+    explanationEn: "In disaster triage (START system), patients with severe respiratory compromise or airway obstruction are classified as Immediate (Red tag), receiving top resuscitation priority.",
+    explanationBn: "বিপর্যয় মোকাবিলার ট্রায়াজ (Triage) পদ্ধতিতে তীব্র শ্বাসকষ্টে ভোগা রোগীকে রেড ট্যাগ বা সর্বোচ্চ অগ্রাধিকার (Highest Priority) দেওয়া হয়।"
+  },
+  {
+    id: "cen-ms-6",
+    dayId: 10,
+    topic: "Emergency Burn Management",
+    difficulty: "MEDIUM",
+    question: "A patient arrives with severe burns. After ensuring a patent airway, what is the next step in emergency management?",
+    options: ["Perform thorough skin grafting", "Initiate fluid resuscitation", "Apply occlusive dressings with topical steroids", "Administer high-protein oral nutrition"],
+    correctIndex: 1,
+    explanationEn: "Following airway and breathing stabilization (ABC), the paramount life-saving intervention for major burns is aggressive intravenous fluid resuscitation (e.g., Parkland formula) to prevent hypovolemic burn shock.",
+    explanationBn: "মারাত্মকভাবে পুড়ে যাওয়া রোগীর শ্বাসনালী উন্মুক্ত করার পরই পরবর্তী সবচেয়ে জরুরি পদক্ষেপ হলো শিরাপথে ফ্লুইড রিসাসিটেশন (IV Fluid Resuscitation) শুরু করা।"
+  },
+  {
+    id: "cen-ms-7",
+    dayId: 10,
+    topic: "Hypovolemic Shock Assessment",
+    difficulty: "EASY",
+    question: "During a morning assessment, a patient has cool, clammy skin, a weak pulse, and decreased urine output. Most appropriate nursing action?",
+    options: ["Administer prescribed loop diuretic", "Report possible hypovolemic shock to the physician", "Place patient in high Fowler's position and withhold IV fluids", "Reassess vitals at the end of the shift in 6 hours"],
+    correctIndex: 1,
+    explanationEn: "Cool clammy skin, tachycardia with weak thready pulse, and oliguria are classic compensatory signs of hypovolemic shock requiring immediate clinical escalation and fluid resuscitation.",
+    explanationBn: "ত্বক ঠান্ডা ও আঠালো হওয়া, নাড়ির স্পন্দন দুর্বল হওয়া এবং প্রস্রাব কমে যাওয়া হাইপোভলেমিক শকের লক্ষণ; দ্রুত ডাক্তারকে জানানো ও ফ্লুইড দেওয়া নার্সের প্রধান কর্তব্য।"
+  },
+
+  // 12 March 2026 — Shift 2
+  {
+    id: "cen-ms-8",
+    dayId: 10,
+    topic: "Emergency Anaphylaxis Management",
+    difficulty: "EASY",
+    question: "Which nursing intervention is most appropriate when caring for a patient experiencing an anaphylactic reaction?",
+    options: ["Maintain a patent airway and administer epinephrine", "Give oral diphenhydramine and encourage fluids", "Place the patient in Trendelenburg and apply cold compresses", "Apply warm water bag to chest and monitor blood pressure"],
+    correctIndex: 0,
+    explanationEn: "Epinephrine IM (1:1000) is the first-line medication of choice for anaphylaxis to reverse bronchospasm and hypotension, alongside immediate airway maintenance and oxygen delivery.",
+    explanationBn: "তীব্র অ্যালার্জি বা অ্যানাফিল্যাক্টিক শকে আক্রান্ত রোগীর শ্বাসনালী সচল রাখা এবং দ্রুত ইন্ট্রামাসকুলার এপিনেফ্রিন (Epinephrine) প্রয়োগ করাই প্রধান নার্সিং পদক্ষেপ।"
+  },
+  {
+    id: "cen-ms-9",
+    dayId: 11,
+    topic: "Post-operative Respiratory Evaluation",
+    difficulty: "EASY",
+    question: "A patient has just returned to the ward after abdominal surgery. Which action should the nurse take first to evaluate respiratory interventions?",
+    options: ["Check surgical wound dressing for discharge", "Assess the patient's oxygen saturation and respiratory rate", "Measure abdominal girth and auscultate bowel sounds", "Administer prescribed oral pain medication"],
+    correctIndex: 1,
+    explanationEn: "Airway and breathing are always evaluated first after general anesthesia. Assessing respiratory rate and pulse oximetry provides immediate objective baseline data on ventilation.",
+    explanationBn: "পেটের অস্ত্রোপচারের পর ওয়ার্ডে আসা রোগীর ক্ষেত্রে শ্বাসযন্ত্রের কার্যকারিতা মূল্যায়নে সবার আগে অক্সিজেন স্যাচুরেশন ও শ্বাসপ্রশ্বাসের গতি (SpO2 & RR) মাপতে হবে।"
+  },
+  {
+    id: "cen-ms-10",
+    dayId: 13,
+    topic: "Colostomy Complications & Assessment",
+    difficulty: "MEDIUM",
+    question: "A nurse is monitoring a patient with a colostomy. Which observation requires immediate attention?",
+    options: ["Stoma appears beefy red and moist", "Stoma appears dark and bluish", "Slight serosanguinous oozing around stoma border", "Flatus present in the collection pouch"],
+    correctIndex: 1,
+    explanationEn: "A normal healthy stoma is pink or beefy red and moist. A dark, purple, or bluish stoma signifies vascular compromise, ischemia, and impending necrosis, requiring urgent surgical notification.",
+    explanationBn: "কোলোস্টমির স্টোমা কালচে বা নীলচে দেখা দিলে বুঝতে হবে সেখানে রক্ত চলাচল ব্যাহত বা ইসকেমিয়া হয়েছে; এটি দ্রুত ডাক্তারকে জানানো প্রয়োজন।"
+  },
+  {
+    id: "cen-ms-11",
+    dayId: 10,
+    topic: "Burn Resuscitation Fluids",
+    difficulty: "EASY",
+    question: "Which solution is commonly used for fluid replacement in burn patients?",
+    options: ["0.45% Normal Saline", "5% Dextrose in Water", "Ringer's lactate", "3% Hypertonic Saline"],
+    correctIndex: 2,
+    explanationEn: "Ringer's lactate (Hartmann's solution) is the crystalloid of choice in acute burn shock resuscitation as its electrolyte composition and buffer capacity closely resemble plasma.",
+    explanationBn: "পুড়ে যাওয়া রোগীর শরীরে ফ্লুইড প্রতিস্থাপনের (Resuscitation) জন্য রিংগার্স ল্যাকটেট (Ringer's Lactate) হলো প্রথম পছন্দের দ্রবণ।"
+  },
+
+  // 12 March 2026 — Shift 3
+  {
+    id: "cen-ms-12",
+    dayId: 13,
+    topic: "Ostomy Self-Care Education",
+    difficulty: "MEDIUM",
+    question: "A nurse is evaluating elimination needs of a patient with a newly established colostomy. Which action demonstrates best practice for promoting self-care?",
+    options: ["Performing all pouch changes without patient viewing", "Encouraging the patient to observe and participate in ostomy care", "Instructing family members to perform all care permanently", "Restricting patient from touching stoma appliance"],
+    correctIndex: 1,
+    explanationEn: "Active patient observation and graduated participation in ostomy pouch emptying and wafer changing fosters self-efficacy, psychomotor mastery, and positive body-image adaptation.",
+    explanationBn: "নতুন কোলোস্টমি হওয়া রোগীকে স্বাবলম্বী করে তুলতে তাকে নিজে দেখে স্টোমা পরিষ্কার ও ব্যাগ পরিবর্তনের কাজে সক্রিয়ভাবে অংশগ্রহণ করতে উৎসাহিত করতে হবে।"
+  },
+  {
+    id: "cen-ms-13",
+    dayId: 10,
+    topic: "Disaster Resource Allocation",
+    difficulty: "MEDIUM",
+    question: "A hospital is conducting a disaster drill. How should the nurse leader allocate limited medical supplies while ensuring patient care?",
+    options: ["Distribute supplies on a first-come, first-served basis", "Allocate supplies based on triage principles", "Reserve all supplies exclusively for intensive care patients", "Ration supplies equally among all patients regardless of acuity"],
+    correctIndex: 1,
+    explanationEn: "In mass disaster situations, scarce resources are ethically and clinically allocated according to triage principles to deliver the greatest good for the greatest number of salvageable patients.",
+    explanationBn: "দুর্যোগকালীন জরুরি পরিস্থিতিতে সীমিত চিকিৎসা সরঞ্জাম ট্রায়াজ নীতি (Triage principles) অনুযায়ী রোগীর তাৎক্ষণিক প্রয়োজনীয়তার ভিত্তিতে বণ্টন করা উচিত।"
+  },
+  {
+    id: "cen-ms-14",
+    dayId: 1,
+    topic: "Intraoperative Equipment Malfunction",
+    difficulty: "MEDIUM",
+    question: "During a complex surgical procedure, a critical piece of equipment malfunctions. Most appropriate action for the OT nurse?",
+    options: ["Attempt to repair internal electrical wiring while in use", "Immediately inform the surgeon and provide a sterile backup", "Wait until the next phase of surgery before taking action", "Disconnect power and continue the surgery without the tool"],
+    correctIndex: 1,
+    explanationEn: "Operating room safety dictates immediate closed-loop communication to the operating surgeon and the rapid retrieval of a verified sterile backup to maintain patient safety.",
+    explanationBn: "অপারেশন চলাকালীন কোনো জরুরি যন্ত্রপাতি বিকল হলে কালবিলম্ব না করে সাথে সাথে সার্জনকে জানাতে হবে এবং বিকল্প জীবাণুমুক্ত (sterile) ব্যাকআপ দিতে হবে।"
+  },
+  {
+    id: "cen-ms-15",
+    dayId: 13,
+    topic: "Neurological Localization - Aphasia",
+    difficulty: "MEDIUM",
+    question: "After a stroke, a patient has difficulty comprehending speech but speaks fluently with words lacking meaning. Which brain region is damaged?",
+    options: ["Broca's area in the left frontal lobe", "Wernicke's area in the left temporal lobe", "Occipital visual cortex", "Precentral motor gyrus"],
+    correctIndex: 1,
+    explanationEn: "Wernicke's aphasia (receptive or sensory aphasia), caused by lesions in the posterior superior temporal gyrus of the dominant hemisphere, features fluent, paraphasic speech with severely impaired comprehension.",
+    explanationBn: "স্ট্রোকের পর কথা স্পষ্টভাবে বলতে পারলেও কথার অর্থ না থাকা এবং অন্যের কথা বুঝতে না পারা Wernicke's Aphasia-র লক্ষণ, যা বাম টেম্পোরাল লোবের ক্ষতির কারণে ঘটে।"
+  },
+  {
+    id: "cen-ms-16",
+    dayId: 11,
+    topic: "Respiratory Therapy - Nebulizer Troubleshooting",
+    difficulty: "EASY",
+    question: "During nebulization for a patient with COPD, the medication is not visibly misting. Best nursing action?",
+    options: ["Increase oxygen flow to 15 L/min without checking", "Check for kinks in the tubing and ensure the device is connected", "Pour out medication and administer orally", "Instruct the patient that invisible mist is normal"],
+    correctIndex: 1,
+    explanationEn: "Troubleshooting a non-functioning nebulizer requires verifying gas source connection, checking flow rate (typically 6-8 L/min), and ensuring no tubing kinks or loose fittings exist.",
+    explanationBn: "নেবুলাইজার দিয়ে ওষুধ ভেপারের মতো না বেরোলে সর্বপ্রথম টিউবিং-এ কোনো ভাঁজ (kink) আছে কি না এবং সংযোগ ঠিক আছে কি না তা পরীক্ষা করা উচিত।"
+  },
+  {
+    id: "cen-ms-17",
+    dayId: 13,
+    topic: "ENT Disorders - Meniere's Disease",
+    difficulty: "MEDIUM",
+    question: "Which dietary modification should be recommended for a patient with Meniere's disease to control symptoms?",
+    options: ["Increasing fluid and sodium intake", "Restricting sodium intake", "High purine diet with red meats", "Restricting all dietary protein"],
+    correctIndex: 1,
+    explanationEn: "A low-sodium diet (1500-2000 mg/day) reduces endolymphatic fluid pressure in the inner ear, decreasing vertigo episodes, tinnitus, and sensorineural hearing loss in Meniere's disease.",
+    explanationBn: "মেনিয়ার্স রোগে অন্তর্কর্ণের ফ্লুইড প্রেশার কমাতে রোগীকে খাবারে লবণের পরিমাণ বা সোডিয়াম সীমিত (Restricting sodium) রাখার পরামর্শ দেওয়া হয়।"
+  },
+  {
+    id: "cen-ms-18",
+    dayId: 13,
+    topic: "Increased Intracranial Pressure (ICP) Care",
+    difficulty: "MEDIUM",
+    question: "When managing a patient with increased intracranial pressure (ICP), which combination of actions should the nurse prioritize?",
+    options: ["Trendelenburg position and deep chest suctioning", "Elevate the head of the bed and monitor vital signs", "Flat supine positioning with neck flexed to right", "Continuous hypoventilation with high PEEP"],
+    correctIndex: 1,
+    explanationEn: "Elevating the head of bed 30 degrees promotes jugular venous drainage without compromising cerebral perfusion, while vital signs monitoring detects Cushing's triad (hypertension, bradycardia, irregular respirations).",
+    explanationBn: "মস্তিষ্কে চাপ (ICP) বৃদ্ধি পেলে মাথার দিক ৩০ ডিগ্রি উঁচু (Head of the bed elevated) রাখতে হয় এবং নিয়মিত ভাইটাল সাইন্স পর্যবেক্ষণ করতে হয়।"
+  },
+
+  // 29 April 2025 — Shift 1
+  {
+    id: "cen-ms-19",
+    dayId: 13,
+    topic: "Diagnostic Tests - Urea Breath Test",
+    difficulty: "EASY",
+    question: "Urea breath test is done for identifying infection of the gastric mucosa with which microorganism?",
+    options: ["Escherichia coli", "Helicobacter pylori", "Clostridium difficile", "Campylobacter jejuni"],
+    correctIndex: 1,
+    explanationEn: "The urea breath test detects urease enzyme activity produced specifically by Helicobacter pylori, which splits labeled urea into ammonia and carbon dioxide.",
+    explanationBn: "ইউরিয়া ব্রেথ টেস্ট (Urea breath test) পাকস্থলীতে হেলিকোব্যাক্টার পাইলোরি (Helicobacter pylori) ব্যাকটেরিয়ার সংক্রমণ শনাক্ত করতে করা হয়।"
+  },
+  {
+    id: "cen-ms-20",
+    dayId: 12,
+    topic: "Urological Procedures - Cystoscopy",
+    difficulty: "EASY",
+    question: "Which diagnostic study is done to obtain biopsy specimens of bladder lesions?",
+    options: ["Intravenous pyelography (IVP)", "Renal ultrasound", "Cystoscopy", "Abdominal flat plate X-ray"],
+    correctIndex: 2,
+    explanationEn: "Cystoscopy involves introducing an endoscope through the urethra into the urinary bladder, allowing direct visualization of mucosa and retrieval of biopsy specimens.",
+    explanationBn: "মূত্রথলির ক্ষতের সরাসরি দর্শন এবং বায়োপসি নমুনা সংগ্রহের জন্য সিস্টোস্কোপি (Cystoscopy) পরীক্ষা করা হয়।"
+  },
+  {
+    id: "cen-ms-21",
+    dayId: 12,
+    topic: "Trauma Nursing - Pelvic Fractures",
+    difficulty: "MEDIUM",
+    question: "A patient with a fracture of the pelvis should be monitored for:",
+    options: ["Changes in urine output", "Pupillary light reflex changes", "Patellar tendon hyperreflexia", "Serum amylase elevations"],
+    correctIndex: 0,
+    explanationEn: "Pelvic fractures present a high risk of lower urinary tract injuries (bladder rupture, urethral transection) and massive retroperitoneal bleeding, requiring vigilant monitoring of urine output and hematuria.",
+    explanationBn: "পেলভিস বা শ্রোণিচক্রের হাড় ভাঙলে মূত্রথলি ও মূত্রনালী ক্ষতিগ্রস্ত হওয়ার ঝুঁকি থাকে, তাই রোগীর প্রস্রাবের পরিমাণ ও রক্তক্ষরণ নিবিড়ভাবে পর্যবেক্ষণ করতে হয়।"
+  },
+  {
+    id: "cen-ms-22",
+    dayId: 12,
+    topic: "Oncology - Renal Cell Carcinoma Risk Factors",
+    difficulty: "EASY",
+    question: "Which is the most significant risk factor for the development of renal cancer?",
+    options: ["High dietary fiber intake", "Cigarette smoking", "Chronic bacterial cystitis", "Moderate alcohol intake"],
+    correctIndex: 1,
+    explanationEn: "Cigarette smoking is the single most significant established environmental risk factor for renal cell carcinoma, doubling an individual's relative risk.",
+    explanationBn: "কিডনি ক্যানসার বা রেনাল সেল কার্সিনোমার সবচেয়ে প্রধান ও ঝুঁকিপূর্ণ কারণ হলো ধূমপান (Cigarette smoking)।"
+  },
+  {
+    id: "cen-ms-23",
+    dayId: 13,
+    topic: "Gastrointestinal Oncology",
+    difficulty: "EASY",
+    question: "Which infectious agent is a risk factor for the development of stomach cancer?",
+    options: ["Hepatitis B virus", "Helicobacter pylori", "Human papillomavirus", "Epstein-Barr virus"],
+    correctIndex: 1,
+    explanationEn: "Chronic colonization with Helicobacter pylori causes persistent gastric mucosal inflammation, leading to chronic atrophic gastritis, dysplasia, and gastric adenocarcinoma.",
+    explanationBn: "পাকস্থলীর ক্যানসারের অন্যতম প্রধান সংক্রমণজনিত ঝুঁকি হলো হেলিকোব্যাক্টার পাইলোরি (H. pylori) ব্যাকটেরিয়া।"
+  },
+  {
+    id: "cen-ms-24",
+    dayId: 12,
+    topic: "Renal Oncology Symptoms",
+    difficulty: "EASY",
+    question: "The most common presenting symptom of renal cell carcinoma is:",
+    options: ["Severe flank colic", "Hematuria", "Generalized pruritus", "Urinary retention"],
+    correctIndex: 1,
+    explanationEn: "Hematuria (gross or microscopic painless blood in urine) occurs in more than 60% of patients and is the most common presenting sign of renal cell carcinoma.",
+    explanationBn: "রেনাল সেল কার্সিনোমার প্রাথমিক ও সবচেয়ে সাধারণ লক্ষণ হলো প্রস্রাবের সাথে রক্ত যাওয়া বা হেমাটুরিয়া (Hematuria)।"
+  },
+  {
+    id: "cen-ms-25",
+    dayId: 7,
+    topic: "General Pathology - Medical Terminology",
+    difficulty: "EASY",
+    question: "What does aetiology refer to?",
+    options: ["The predicted course of a disease", "The cause of a disease", "The surgical excision of diseased tissue", "The laboratory confirmation of death"],
+    correctIndex: 1,
+    explanationEn: "Etiology (aetiology) refers to the study or determination of the cause or origin of a disease or medical condition.",
+    explanationBn: "মেডিকেল ভাষায় ইটিওলজি (Aetiology) বলতে কোনো রোগের কারণ বা উৎসকে বোঝায়।"
+  },
+  {
+    id: "cen-ms-26",
+    dayId: 13,
+    topic: "Oncology - TNM Staging",
+    difficulty: "MEDIUM",
+    question: "When a patient's cancer is classified as 'T1N0M0', what does it indicate?",
+    options: ["Large primary tumor with distant organ involvement", "Small primary tumour with no lymph node involvement and no metastasis", "In situ lesion with positive regional lymph node involvement", "Metastatic recurrence after surgical clearance"],
+    correctIndex: 1,
+    explanationEn: "In TNM staging: T1 indicates a small primary tumor confined to its site of origin, N0 indicates no regional lymph node metastasis, and M0 indicates no distant metastasis.",
+    explanationBn: "'T1N0M0' নির্দেশ করে ক্যানসারের প্রাথমিক টিউমারটি আকারে ছোট এবং কোনো লিম্ফ নোড বা দূরবর্তী অঙ্গে ছড়ায়নি (No metastasis)।"
+  },
+  {
+    id: "cen-ms-27",
+    dayId: 10,
+    topic: "Cardiovascular Pathology - Atherosclerosis",
+    difficulty: "MEDIUM",
+    question: "Which layer of coronary blood vessels gets blocked and narrowed by fatty substances in atherosclerosis?",
+    options: ["Tunica adventitia", "Tunica media", "Tunica intima", "Tunica elastica"],
+    correctIndex: 2,
+    explanationEn: "Atherosclerosis begins with endothelial injury in the tunica intima, leading to lipid accumulation, foam cell formation, and atheromatous plaque thickening that narrows the lumen.",
+    explanationBn: "অ্যাথেরোস্ক্লেরোসিস প্রক্রিয়ায় রক্তনালীর সবচেয়ে ভেতরের স্তর টিউনিকা ইনটিমা (Tunica intima)-তে চর্বি ও কোলেস্টেরল জমে রক্তনালী সংকুচিত হয়।"
+  },
+  {
+    id: "cen-ms-28",
+    dayId: 10,
+    topic: "Resuscitation - ALS Defibrillation Cycles",
+    difficulty: "MEDIUM",
+    question: "How many cycles of CPR are given followed by one shock if the victim has a shockable rhythm during ALS in cardiac arrest?",
+    options: ["2", "3", "5", "8"],
+    correctIndex: 2,
+    explanationEn: "Advanced Life Support guidelines dictate performing 2 minutes of CPR (approximately 5 cycles of 30:2 compressions-to-ventilations) between defibrillation shocks.",
+    explanationBn: "কার্ডিয়াক অ্যারেস্টে শক দেওয়ার পর প্রতিবারে ২ মিনিট বা প্রায় ৫ সাইকেল CPR সম্পন্ন করতে হয়।"
+  },
+  {
+    id: "cen-ms-29",
+    dayId: 13,
+    topic: "Tissue Healing - Proliferative Phase",
+    difficulty: "EASY",
+    question: "In which phase of wound healing does the wound appear pink and vascular?",
+    options: ["Hemostasis phase", "Inflammatory phase", "Granulation phase", "Maturation phase"],
+    correctIndex: 2,
+    explanationEn: "During the granulation (proliferative) phase, new capillary networks form via angiogenesis, giving healthy healing tissue its characteristic beefy pink, granular, vascular appearance.",
+    explanationBn: "ক্ষত নিরাময়ের গ্র্যানুলেশন দশায় (Granulation phase) নতুন রক্তজালক গঠিত হওয়ায় ক্ষতস্থানটি উজ্জ্বল গোলাপি ও রক্তনালীবহুল দেখায়।"
+  },
+  {
+    id: "cen-ms-30",
+    dayId: 1,
+    topic: "Preoperative Legal Protocols",
+    difficulty: "EASY",
+    question: "What legal preparation is done for a patient undergoing fracture surgery?",
+    options: ["Signed informed consent", "Verbal authorization over telephone", "Hospital discharge summary", "Living will notarization"],
+    correctIndex: 0,
+    explanationEn: "Signed informed consent is the mandatory legal prerequisite before surgery, confirming that the patient understands the nature, risks, benefits, and alternatives of the procedure.",
+    explanationBn: "হাড়ের অস্ত্রোপচারের আগে রোগীকে দিয়ে স্বাক্ষরিত সম্মতিপত্র (Signed informed consent) পূরণ করা আইনগতভাবে বাধ্যতামূলক।"
+  },
+  {
+    id: "cen-ms-31",
+    dayId: 10,
+    topic: "Shock Signs & Manifestations",
+    difficulty: "EASY",
+    question: "Which of the following is a symptom of shock?",
+    options: ["Warm flushed extremities and bounding pulse", "Rapid breathing and weak pulse", "Hypertension and wide pulse pressure", "Deep slow respirations and pupil constriction"],
+    correctIndex: 1,
+    explanationEn: "In shock, sympathetic activation and tissue hypoxia result in compensatory tachypnea (rapid breathing) and tachycardia with a weak, thready peripheral pulse.",
+    explanationBn: "শকের প্রধান লক্ষণ হলো দ্রুত অগভীর শ্বাসপ্রশ্বাস এবং দ্রুত দুর্বল নাড়ির স্পন্দন (Rapid breathing and weak pulse)।"
+  },
+  {
+    id: "cen-ms-32",
+    dayId: 10,
+    topic: "Acute Coronary Syndromes - Pulmonary Edema",
+    difficulty: "MEDIUM",
+    question: "A client with a myocardial infarction develops rapid heart rate, dyspnea, and coughs up pink, frothy sputum. What lung sound is heard?",
+    options: ["Stridor", "Wheezes", "Crackles", "Pleural friction rub"],
+    correctIndex: 2,
+    explanationEn: "Left ventricular failure post-MI causes acute pulmonary edema, producing alveoli fluid transudation, frothy pink hemoptysis, and inspiratory crackles (rales) on auscultation.",
+    explanationBn: "মায়োকার্ডিয়াল ইনফার্কশনের পর ফুসফুসে পানি জমলে (Pulmonary edema) গোলাপি ফেনাযুক্ত কফ বের হয় এবং স্টেথোস্কোপে ক্র্যাকল্স (Crackles) শব্দ শোনা যায়।"
+  },
+  {
+    id: "cen-ms-33",
+    dayId: 10,
+    topic: "Hemorrhagic Shock Staging",
+    difficulty: "HARD",
+    question: "In stage 3 hypovolemic shock, the patient will have blood loss of:",
+    options: ["Up to 15%", "15–30%", "30–40%", "Over 50%"],
+    correctIndex: 2,
+    explanationEn: "According to ATLS classification: Class I is <15% blood loss, Class II is 15-30%, Class III is 30-40% (1500-2000 mL blood loss, marked hypotension and oliguria), and Class IV is >40%.",
+    explanationBn: "হাইপোভলেমিক শকের স্টেজ ৩ (Class III)-তে রোগীর রক্তের ৩০-৪০% (১৫০০-২০০০ মিলি) অপচয় ঘটে এবং রক্তচাপ তীব্রভাবে কমে যায়।"
+  },
+
+  // 29 April 2025 — Shift 2
+  {
+    id: "cen-ms-34",
+    dayId: 12,
+    topic: "Renal Neoplasm Signs",
+    difficulty: "EASY",
+    question: "What is the most common initial sign of a renal tumor?",
+    options: ["Severe dysuria", "Painless hematuria", "Scrotal varicocele", "Acute anuria"],
+    correctIndex: 1,
+    explanationEn: "Painless gross or microscopic hematuria is the classic and most frequent initial presenting sign of renal tumors, occurring before flank pain or palpable mass appear.",
+    explanationBn: "কিডনি টিউমারের প্রাথমিক এবং সবচেয়ে সাধারণ লক্ষণ হলো ব্যথাহীন রক্তমিশ্রিত প্রস্রাব (Painless hematuria)।"
+  },
+  {
+    id: "cen-ms-35",
+    dayId: 12,
+    topic: "Urinary Elimination Pathophysiology",
+    difficulty: "EASY",
+    question: "Which statement best explains urinary retention?",
+    options: ["Excessive production of urine exceeding 3 L/day", "Inability of the bladder to empty properly", "Involuntary passage of urine during coughing", "Inflammation of the urethra causing burning"],
+    correctIndex: 1,
+    explanationEn: "Urinary retention is the inability to completely empty urine from the bladder, resulting in progressive bladder distension, discomfort, and risk of overflow incontinence.",
+    explanationBn: "ইউরিনারি রিটেনশন (Urinary retention) বলতে মূত্রথলি সম্পূর্ণভাবে খালি করতে না পারাকে বোঝায়।"
+  },
+  {
+    id: "cen-ms-36",
+    dayId: 10,
+    topic: "CPR Guidelines - Rescuer Fatigue",
+    difficulty: "EASY",
+    question: "While performing CPR in cardiac arrest, rescuers should change roles every:",
+    options: ["1 minute", "2 minutes", "5 minutes", "10 minutes"],
+    correctIndex: 1,
+    explanationEn: "To prevent chest compressor fatigue and maintain effective compression depth (>5 cm) and rate (100-120/min), rescuers should rotate roles every 2 minutes (every 5 cycles).",
+    explanationBn: "CPR দেওয়ার সময় ক্লান্তি দূর করতে ও সঠিক কম্প্রেশন বজায় রাখতে উদ্ধারকারীদের প্রতি ২ মিনিট পর পর স্থান পরিবর্তন করা উচিত।"
+  },
+  {
+    id: "cen-ms-37",
+    dayId: 13,
+    topic: "Cancer Staging - TNM System",
+    difficulty: "EASY",
+    question: "In the TNM classification system, ascending degrees of increase in tumor size and involvement is denoted by:",
+    options: ["T1–4", "N0–3", "M0–1", "G1–4"],
+    correctIndex: 0,
+    explanationEn: "In the TNM staging system, 'T' denotes the primary tumor, with T1 through T4 reflecting progressive increases in tumor size and local tissue invasion.",
+    explanationBn: "TNM ক্যানসার ক্লাসিফিকেশনে টিউমারের আকার ও বৃদ্ধির পরিধি বোঝাতে T1 থেকে T4 (T1–4) ব্যবহার করা হয়।"
+  },
+  {
+    id: "cen-ms-38",
+    dayId: 13,
+    topic: "Oncology - Genetic Predisposition",
+    difficulty: "MEDIUM",
+    question: "Individuals with which blood group have a higher risk of developing gastric carcinoma?",
+    options: ["Type O", "Type A", "Type B", "Type AB"],
+    correctIndex: 1,
+    explanationEn: "Epidemiological research demonstrates that people with ABO blood group Type A have approximately a 20% increased susceptibility to developing gastric carcinoma.",
+    explanationBn: "গবেষণায় দেখা গেছে যে ব্লাড গ্রুপ 'A' (Type A) যুক্ত ব্যক্তিদের পাকস্থলীর ক্যানসার হওয়ার ঝুঁকি বেশি থাকে।"
+  },
+  {
+    id: "cen-ms-39",
+    dayId: 12,
+    topic: "Electrolyte Imbalance - Hyperkalemia Etiology",
+    difficulty: "EASY",
+    question: "Which disease has a greater risk of developing hyperkalemia?",
+    options: ["Renal failure", "Primary aldosteronism", "Diabetes insipidus", "Cushing's syndrome"],
+    correctIndex: 0,
+    explanationEn: "In renal failure, impaired glomerular filtration and damaged renal tubular secretion prevent potassium excretion, posing a critical risk of lethal hyperkalemia.",
+    explanationBn: "কিডনি ফেইলিওর (Renal failure)-এ প্রস্রাবের সাথে পটাশিয়াম বের হতে না পেরে রক্তে পটাশিয়ামের মাত্রা মারাত্মক বেড়ে যায় (Hyperkalemia)।"
+  },
+  {
+    id: "cen-ms-40",
+    dayId: 10,
+    topic: "Myocardial Infarction Clinical Diagnosis",
+    difficulty: "EASY",
+    question: "Severe chest pain not relieved by rest, position change, or nitrate administration indicates:",
+    options: ["Costochondritis", "Gastroesophageal reflux", "Myocardial infarction", "Chronic stable angina"],
+    correctIndex: 2,
+    explanationEn: "Anginal pain typically subsides with sublingual nitroglycerin and rest; crushing substernal chest pain unresponsive to nitrates signifies acute myocardial infarction.",
+    explanationBn: "বিশ্রাম নেওয়া বা নাইট্রেট ওষুধ খাওয়ার পরেও যে তীব্র বুকের ব্যথা কমে না, তা মায়োকার্ডিয়াল ইনফার্কশন (হার্ট অ্যাটাক) নির্দেশ করে।"
+  },
+  {
+    id: "cen-ms-41",
+    dayId: 12,
+    topic: "Renal Cell Carcinoma Risk Factors",
+    difficulty: "HARD",
+    question: "Which of the following is NOT a recognised risk factor for the development of renal carcinoma?",
+    options: ["Cigarette smoking", "Obesity", "Hypertension", "Hemodialysis"],
+    correctIndex: 3,
+    explanationEn: "While long-standing acquired cystic kidney disease in ESRD carries some risk, hemodialysis itself is a renal replacement modality rather than an independent etiological risk factor compared to smoking, obesity, and hypertension.",
+    explanationBn: "ধূমপান, স্থূলতা এবং উচ্চ রক্তচাপ রেনাল ক্যানসারের স্বীকৃত ঝুঁকি হলেও হিমোডায়ালাইসিস এর কোনো মূল কারণ বা ঝুঁকি নয়।"
+  },
+  {
+    id: "cen-ms-42",
+    dayId: 10,
+    topic: "Vascular Pathology",
+    difficulty: "EASY",
+    question: "In atherosclerosis, accumulation of lipid or fatty substances and fibrous tissue is present in:",
+    options: ["Artery", "Vein", "Capillary", "Lymph vessel"],
+    correctIndex: 0,
+    explanationEn: "Atherosclerosis is a chronic inflammatory disorder that selectively targets the intimal lining of large and medium-sized arteries.",
+    explanationBn: "অ্যাথেরোস্ক্লেরোসিসে চর্বি ও আঁশযুক্ত পদার্থ মূলত ধমনি বা আর্টারি (Artery)-র দেওয়ালে জমা হয়।"
+  },
+  {
+    id: "cen-ms-43",
+    dayId: 13,
+    topic: "First Aid & Fracture Immobilization",
+    difficulty: "EASY",
+    question: "In which condition is a collar sling applied as a first aid measure before shifting the patient to the hospital?",
+    options: ["Dislocation of the hip joint", "Fracture femur", "Fracture lower arm", "Cervical spine subluxation"],
+    correctIndex: 2,
+    explanationEn: "A collar-and-cuff or broad arm sling is applied to elevate and immobilize fractures of the forearm, wrist, and hand before definitive hospital immobilization.",
+    explanationBn: "হাতের নিচের অংশ বা ফোরআর্ম ভাঙলে (Fracture lower arm) প্রাথমিক চিকিৎসা হিসেবে কলার স্লিং ব্যবহার করা হয়।"
+  },
+  {
+    id: "cen-ms-44",
+    dayId: 12,
+    topic: "Urinary Bladder Neuromuscular Function",
+    difficulty: "MEDIUM",
+    question: "Which muscle dysfunction results in urinary retention?",
+    options: ["Pectineus muscle", "Detrusor muscles", "External anal sphincter", "Cremaster muscle"],
+    correctIndex: 1,
+    explanationEn: "The detrusor muscle contracts during micturition to empty bladder contents; detrusor hypotonia or neurogenic acontractility directly causes urinary retention.",
+    explanationBn: "মূত্রথলির ডেট্রুসর পেশি (Detrusor muscle) দুর্বল বা অকেজো হয়ে পড়লে প্রস্রাব আটকে যায় বা রিটেনশন ঘটে।"
+  },
+  {
+    id: "cen-ms-45",
+    dayId: 12,
+    topic: "Acute Kidney Injury Fluid Assessment",
+    difficulty: "EASY",
+    question: "In assessing fluid status in a patient with acute kidney injury, which physical finding best indicates fluid deficit?",
+    options: ["Distended neck veins at 45 degrees", "Bilateral dependent pitting ankle edema", "Poor skin turgor and dry mucous membranes", "Audible pulmonary bibasilar crackles"],
+    correctIndex: 2,
+    explanationEn: "Decreased skin turgor (tenting) and dry, cracked oral mucous membranes are classical physical indicators of hypovolemia and dehydration.",
+    explanationBn: "শরীরে তরলের ঘাটতি বা পানিশূন্যতা বোঝার সবচেয়ে প্রধান লক্ষণ হলো ত্বকের স্থিতিস্থাপকতা কমে যাওয়া (Poor skin turgor) এবং শুষ্ক শ্লেষ্মাঝিল্লি।"
+  },
+  {
+    id: "cen-ms-46",
+    dayId: 12,
+    topic: "Acid-Base Imbalance - Respiratory Alkalosis",
+    difficulty: "MEDIUM",
+    question: "The decrease in carbonic acid seen in hyperventilation is called:",
+    options: ["Respiratory acidosis", "Respiratory alkalosis", "Metabolic acidosis", "Metabolic alkalosis"],
+    correctIndex: 1,
+    explanationEn: "Alveolar hyperventilation causes excessive elimination of carbon dioxide, decreasing dissolved carbonic acid (H2CO3) and raising blood pH (> 7.45), creating respiratory alkalosis.",
+    explanationBn: "অতিরিক্ত দ্রুত শ্বাসপ্রশ্বাস (Hyperventilation)-এর কারণে রক্তে কার্বনিক অ্যাসিডের মাত্রা কমে যাওয়াকে রেসপিরেটরি অ্যালকালোসিস (Respiratory alkalosis) বলে।"
+  },
+  {
+    id: "cen-ms-47",
+    dayId: 10,
+    topic: "Burn Pathophysiology - Zones of Injury",
+    difficulty: "MEDIUM",
+    question: "In burns, the associated tissue damage with greatest destruction occurs in:",
+    options: ["Zone of hyperemia", "Zone of stasis", "Zone of coagulation", "Zone of erythema"],
+    correctIndex: 2,
+    explanationEn: "Jackson's burn model: The Zone of Coagulation is the central epicenter of maximal thermal damage where irreversible tissue necrosis and cellular death have occurred.",
+    explanationBn: "পুড়ে যাওয়ার ক্ষতে সবচেয়ে বেশি ধ্বংসপ্রাপ্ত ও অপূরণীয় ক্ষতিগ্রস্ত অঞ্চলটিকে জোন অব কোয়াগুলেশন (Zone of coagulation) বলা হয়।"
+  },
+  {
+    id: "cen-ms-48",
+    dayId: 13,
+    topic: "Orthopedic Diagnostics - Arthrocentesis",
+    difficulty: "EASY",
+    question: "The purpose of performing Arthrocentesis is:",
+    options: ["Synovial fluid analysis", "Measurement of bone calcium density", "Repair of torn ligaments under laparoscopy", "Assessment of spinal fluid pressure"],
+    correctIndex: 0,
+    explanationEn: "Arthrocentesis involves needle aspiration of fluid from a joint capsule for diagnostic analysis of crystals, cell counts, culture, and pain relief from effusion.",
+    explanationBn: "আর্থ্রোসেন্টেসিস (Arthrocentesis) পদ্ধতির মূল উদ্দেশ্য হলো অস্থিসন্ধির সাইনোভিয়াল ফ্লুইড সংগ্রহ করে তা পরীক্ষা করা (Synovial fluid analysis)।"
+  },
+  {
+    id: "cen-ms-49",
+    dayId: 7,
+    topic: "Cellular Pathology - Reversible Injury",
+    difficulty: "MEDIUM",
+    question: "The morphology of reversible cell injury seen includes:",
+    options: ["Karyolysis", "Karyorrhexis", "Hydropic change", "Pyknosis"],
+    correctIndex: 2,
+    explanationEn: "Hydropic change (cellular swelling or vacuolar degeneration) occurs due to failure of energy-dependent Na+/K+ pumps and is the earliest morphological hallmark of reversible cellular injury.",
+    explanationBn: "কোষের নিরাময়যোগ্য ক্ষতির (Reversible cell injury) প্রাথমিক রূপ হলো কোষে জল জমে ফুলে যাওয়া বা হাইড্রপিক পরিবর্তন (Hydropic change)।"
+  },
+  {
+    id: "cen-ms-50",
+    dayId: 7,
+    topic: "Cellular Pathology - Irreversible Injury",
+    difficulty: "MEDIUM",
+    question: "Which morphological pathological process occurs in irreversible cell injury?",
+    options: ["Hydropic swelling", "Fatty change", "Autolysis change", "Cell membrane blebbing"],
+    correctIndex: 2,
+    explanationEn: "Irreversible injury progresses to necrosis and enzymatic digestion of cellular components by intrinsic lysosomal enzymes, termed autolysis.",
+    explanationBn: "কোষের অপূরণীয় ক্ষতিতে (Irreversible cell injury) লাইসোজোমের এনজাইম দ্বারা কোষ নিজেই ধ্বংসপ্রাপ্ত হয়, যাকে অটোলাইসিস (Autolysis) বলে।"
+  },
+
+  // 29 April 2025 — Shift 3
+  {
+    id: "cen-ms-51",
+    dayId: 1,
+    topic: "Bioethics in Emergency Care",
+    difficulty: "MEDIUM",
+    question: "When multiple trauma patients arrive simultaneously with orthopaedic injuries, the ethical principle guiding resource allocation is:",
+    options: ["Autonomy", "Beneficence", "Justice", "Paternalism"],
+    correctIndex: 2,
+    explanationEn: "The ethical principle of Justice requires fair, equitable distribution of healthcare resources based on objective clinical priority, severity, and need.",
+    explanationBn: "একসাথে অনেক ট্রমা রোগী আসলে চিকিৎসা সরঞ্জাম ও সেবা বণ্টনের মূল নৈতিক ভিত্তি হলো ন্যায়বিচার বা জাস্টিস (Justice)।"
+  },
+  {
+    id: "cen-ms-52",
+    dayId: 7,
+    topic: "Diagnostic Pathology - FNAC",
+    difficulty: "EASY",
+    question: "Study of cells collected by fine needle aspiration of superficial and deep-seated lesions for diagnosis is termed:",
+    options: ["Histopathology", "Cytopathology", "Immunology", "Hematology"],
+    correctIndex: 1,
+    explanationEn: "Cytopathology is the branch of pathology that studies free individual cells or tissue fragments obtained by fine-needle aspiration cytology (FNAC) or scraping.",
+    explanationBn: "এফএনএসি (FNAC) সুই দিয়ে কোষ সংগ্রহ করে মাইক্রোস্কোপে রোগ নির্ণয় করার পদ্ধতিকে সাইটোপ্যাথলজি (Cytopathology) বলা হয়।"
+  },
+  {
+    id: "cen-ms-53",
+    dayId: 10,
+    topic: "Ischemic Heart Disease - Angina Types",
+    difficulty: "MEDIUM",
+    question: "Chest pain occurring intermittently over a long period with the same pattern of onset, duration, and intensity is called:",
+    options: ["Unstable angina", "Chronic stable angina", "Variant (Prinzmetal's) angina", "Acute aortic dissection"],
+    correctIndex: 1,
+    explanationEn: "Chronic stable angina is characterized by predictable, episodic chest discomfort provoked by exertion or emotional stress that subsides with rest or sublingual nitroglycerin.",
+    explanationBn: "নির্দিষ্ট পরিশ্রমের পর দীর্ঘ সময় ধরে একই তীব্রতা ও স্থায়িত্বে যে বুকের ব্যথা দেখা দেয় তাকে ক্রনিক স্টেবল অ্যানজাইনা (Chronic stable angina) বলে।"
+  },
+  {
+    id: "cen-ms-54",
+    dayId: 7,
+    topic: "Cellular Injury Mechanisms",
+    difficulty: "EASY",
+    question: "Which is an example of a reversible morphological change?",
+    options: ["Cellular swelling", "Coagulative necrosis", "Caseous necrosis", "Liquefactive necrosis"],
+    correctIndex: 0,
+    explanationEn: "Cellular swelling (cloudy swelling) is completely reversible once normal cellular perfusion, ATP generation, and membrane ion pumping are restored.",
+    explanationBn: "কোষের রিভার্সিবল বা নিরাময়যোগ্য রূপ পরিবর্তনের প্রধান উদাহরণ হলো সেলুলার সোয়েলিং (Cellular swelling বা কোষের ফোলাভাব)।"
+  },
+  {
+    id: "cen-ms-55",
+    dayId: 13,
+    topic: "Orthopaedic Nursing Quality Indicators",
+    difficulty: "MEDIUM",
+    question: "A key performance indicator specific to orthopaedic nursing that should be monitored regularly is:",
+    options: ["Total number of visitors per patient", "Functional improvement from admission to discharge", "Daily food tray delivery timing", "Length of cafeteria lines"],
+    correctIndex: 1,
+    explanationEn: "Measuring functional mobility and independence gain from admission to discharge is a core patient-centered Key Performance Indicator (KPI) in orthopaedic care.",
+    explanationBn: "অর্থোপেডিক নার্সিং সেবার মান মূল্যায়নের প্রধান নির্দেশক (KPI) হলো ভর্তি থেকে ছুটির সময় পর্যন্ত রোগীর অঙ্গ সঞ্চালন ও শারীরিক কর্মক্ষমতার উন্নতি।"
+  },
+  {
+    id: "cen-ms-56",
+    dayId: 12,
+    topic: "Electrolyte Imbalances - Hypercalcemia",
+    difficulty: "MEDIUM",
+    question: "The risk factor of hypercalcemia is:",
+    options: ["Prolonged immobilization", "Extreme marathon running", "Hypoparathyroidism", "High dietary phosphorus intake"],
+    correctIndex: 0,
+    explanationEn: "Prolonged bed rest and lack of weight-bearing stress stimulate osteoclastic bone resorption, leaching calcium from bones into the bloodstream and causing hypercalcemia.",
+    explanationBn: "দীর্ঘদিন বিছানায় শুয়ে থাকলে বা চলাফেরা না করলে (Prolonged immobilization) হাড় থেকে ক্যালসিয়াম রক্তে এসে হাইপারক্যালসেমিয়া সৃষ্টি করে।"
+  },
+  {
+    id: "cen-ms-57",
+    dayId: 13,
+    topic: "Wound Healing Biochemistry",
+    difficulty: "MEDIUM",
+    question: "In which wound healing phase does the synthesis of collagen occur?",
+    options: ["Hemostasis phase", "Inflammatory phase", "Granulation phase", "Vascular spasm phase"],
+    correctIndex: 2,
+    explanationEn: "In the granulation (proliferative) phase, proliferating fibroblasts actively synthesize collagen fibers and proteoglycans to restore tissue structural integrity.",
+    explanationBn: "ক্ষত নিরাময়ের গ্র্যানুলেশন দশায় (Granulation phase) ফাইব্রোব্লাস্ট দ্বারা কোলাজেন প্রোটিন সংশ্লেষিত হয়।"
+  },
+  {
+    id: "cen-ms-58",
+    dayId: 10,
+    topic: "First Aid - Envenomation",
+    difficulty: "EASY",
+    question: "What is the first step in providing first aid for a snake bite?",
+    options: ["Apply a tight arterial tourniquet above the bite", "Keep the affected limb immobilized and below heart level", "Incise the fang puncture marks and apply suction", "Pack the wound with crushed ice cubes"],
+    correctIndex: 1,
+    explanationEn: "Immobilizing the bitten limb with a splint and positioning it at or below heart level slows lymphatic circulation of venom while avoiding tissue-damaging tourniquets or incisions.",
+    explanationBn: "সাপের কামড়ের প্রাথমিক চিকিৎসায় আক্রান্ত অঙ্গটি না নাড়িয়ে সম্পূর্ণ স্থির রাখা এবং হৃদপিণ্ডের স্তরের নিচে (Below heart level) রাখা আবশ্যক।"
+  },
+  {
+    id: "cen-ms-59",
+    dayId: 13,
+    topic: "Metabolic Joint Disorders - Gout",
+    difficulty: "EASY",
+    question: "Chronic gout is characterised by multiple joint involvement with the presence of:",
+    options: ["Heberden's nodes", "Bouchard's nodes", "Tophi", "Aschoff nodules"],
+    correctIndex: 2,
+    explanationEn: "Tophi are macroscopic chalky subcutaneous and synovial deposits of monosodium urate crystals characteristic of chronic advanced gout.",
+    explanationBn: "ক্রনিক গাউট বা বাতরোগের প্রধান বৈশিষ্ট্য হলো অস্থিসন্ধিতে ইউরিক অ্যাসিড জমে শক্ত দলা বা টোফাই (Tophi) তৈরি হওয়া।"
+  },
+  {
+    id: "cen-ms-60",
+    dayId: 13,
+    topic: "Orthopedic Surgery - Total Ankle Arthroplasty",
+    difficulty: "HARD",
+    question: "Which activity should be avoided by a patient scheduled for total ankle replacement surgery?",
+    options: ["Gentle toe wiggling exercises", "Bearing weight on the affected leg for 6 weeks", "Deep breathing exercises postoperatively", "Elevating the leg on two pillows"],
+    correctIndex: 1,
+    explanationEn: "Following total ankle replacement, strictly avoiding weight-bearing on the operative leg for approximately 6 weeks protects implant integration and bony fusion.",
+    explanationBn: "টোটাল অ্যাঙ্কেল রিপ্লেসমেন্ট সার্জারির পর ক্ষতিগ্রস্ত পায়ে ৬ সপ্তাহ কোনো ভর দেওয়া (Bearing weight for 6 weeks) সম্পূর্ণ এড়িয়ে চলতে হবে।"
+  },
+  {
+    id: "cen-ms-61",
+    dayId: 13,
+    topic: "Oncology - TNM Nodal Staging",
+    difficulty: "EASY",
+    question: "What does 'NX' signify in the TNM classification?",
+    options: ["No regional lymph node involvement", "Regional lymph nodes cannot be assessed", "Distant node metastasis verified", "Metastasis to contralateral nodes"],
+    correctIndex: 1,
+    explanationEn: "In the TNM cancer classification, 'NX' indicates that regional lymph nodes cannot be assessed or evaluated (e.g., previously removed or unexamined).",
+    explanationBn: "TNM পদ্ধতিতে 'NX' দিয়ে বোঝানো হয় যে নিকটবর্তী লিম্ফ নোডগুলো পরীক্ষা বা মূল্যায়ন করা সম্ভব হয়নি (Cannot be assessed)।"
+  },
+  {
+    id: "cen-ms-62",
+    dayId: 13,
+    topic: "Histological Grading of Tumors",
+    difficulty: "MEDIUM",
+    question: "In which grade does a tumour possess cells that are moderately differentiated?",
+    options: ["Grade I", "Grade II", "Grade III", "Grade IV"],
+    correctIndex: 1,
+    explanationEn: "Histological grading: Grade I = well-differentiated, Grade II = moderately differentiated, Grade III = poorly differentiated, Grade IV = undifferentiated/anaplastic.",
+    explanationBn: "টিউমার গ্রেডিং পদ্ধতিতে গ্রেড ২ (Grade II)-তে ক্যানসার কোষগুলো মাঝারি মাত্রায় পৃথকীকৃত (Moderately differentiated) থাকে।"
+  },
+  {
+    id: "cen-ms-63",
+    dayId: 10,
+    topic: "Hematological Emergencies - Acute DIC",
+    difficulty: "HARD",
+    question: "Which laboratory finding is most consistent with acute DIC?",
+    options: ["Shortened PT and high platelet count", "Prolonged PT/PTT with thrombocytopenia", "Normal fibrinogen and low D-dimer", "Isolated elevation of red blood cells"],
+    correctIndex: 1,
+    explanationEn: "Consumptive coagulopathy in acute Disseminated Intravascular Coagulation (DIC) rapidly depletes platelets (thrombocytopenia) and clotting factors, prolonging PT and aPTT.",
+    explanationBn: "তীব্র DIC রোগে ক্লটিং ফ্যাক্টর ও অণুচক্রিকা নিঃশেষিত হওয়ায় PT/PTT দীর্ঘায়িত হয় এবং থ্রম্বোসাইটোপেনিয়া (প্লেটলেট কমে যাওয়া) দেখা দেয়।"
+  },
+  {
+    id: "cen-ms-64",
+    dayId: 10,
+    topic: "Thermal Burns Systemic Complications",
+    difficulty: "MEDIUM",
+    question: "When there is necrosis of tissue due to burn injury, the patient is at risk of developing:",
+    options: ["Disseminated intravascular coagulation (DIC)", "Primary hypothyroidism", "Aplastic anemia", "Pernicious anemia"],
+    correctIndex: 0,
+    explanationEn: "Severe tissue necrosis from major burn trauma releases abundant tissue factor and inflammatory cytokines, triggering systemic intravascular microthrombosis and acute DIC.",
+    explanationBn: "পুড়ে গিয়ে ব্যাপক টিস্যু নষ্ট হলে সেখান থেকে থ্রম্বোপ্লাস্টিন নিঃসৃত হয়ে রক্ত জমাট বাঁধার জটিলতা বা DIC সৃষ্টি হতে পারে।"
+  },
+  {
+    id: "cen-ms-65",
+    dayId: 7,
+    topic: "Tissue Pathology - Choristoma",
+    difficulty: "HARD",
+    question: "Normal tissue present at an ectopic site, which is not a true tumour, is known as:",
+    options: ["Hamartoma", "Teratoma", "Choristoma", "Adenoma"],
+    correctIndex: 2,
+    explanationEn: "A choristoma (heterotopia) is a developmental mass of histologically normal mature tissue located in an abnormal anatomical site (e.g., normal pancreatic tissue in the stomach wall).",
+    explanationBn: "স্বাভাবিক টিস্যু শরীরের অস্বাভাবিক কোনো স্থানে উপস্থিত থাকলে (যা প্রকৃত টিউমার নয়) তাকে কোরিস্তোমা (Choristoma) বলা হয়।"
+  },
+  {
+    id: "cen-ms-66",
+    dayId: 13,
+    topic: "Orthopedic Assessment Instruments",
+    difficulty: "EASY",
+    question: "The important use of a Goniometer is to measure the:",
+    options: ["Pulse pressure", "Range of motion", "Bone mineral density", "Lung tidal volume"],
+    correctIndex: 1,
+    explanationEn: "A goniometer is an instrument used by nurses, physicians, and physical therapists to accurately measure the angular range of motion (ROM) of joints.",
+    explanationBn: "অস্থিসন্ধির নড়াচড়ার কোণ বা রেঞ্জ অব মোশন (Range of motion) পরিমাপের জন্য গোনিওমিটার (Goniometer) ব্যবহৃত হয়।"
+  },
+  {
+    id: "cen-ms-67",
+    dayId: 13,
+    topic: "Neuro-oncology - Metastatic Tumors",
+    difficulty: "MEDIUM",
+    question: "In which brain tumor are multiple well-defined deposits usually located at the grey and white matter junction?",
+    options: ["Metastatic brain tumor", "Pituitary microadenoma", "Meningioma", "Acoustic neuroma"],
+    correctIndex: 0,
+    explanationEn: "Metastatic brain tumors characteristically present as multiple circumscribed spherical masses located at the junction of grey and white matter where caliber of microvasculature abruptly changes.",
+    explanationBn: "গ্রে এবং হোয়াইট ম্যাটারের সংযোগস্থলে একাধিক স্পষ্ট গোলাকার টিউমার দেখা যাওয়া মেটাস্ট্যাটিক ব্রেন টিউমারের (Metastatic brain tumor) প্রধান লক্ষণ।"
+  }
+];

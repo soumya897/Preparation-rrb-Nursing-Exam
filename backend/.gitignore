@@ -1,0 +1,25 @@
+
+# Maven build output
+target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring configuration containing credentials
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
